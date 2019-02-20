@@ -1,2 +1,2 @@
 # lint-configuration
-Lint configuration that can be used by other projects
+Lint configuration, which I use with my projects

@@ -1,0 +1,14 @@
+{
+  "name": "lint-configuration",
+  "version": "0.1.0",
+  "description": "Lint Configuration Package ",
+  "main": "index.js",
+  "repository": "https://github.com/georgi2411/lint-configuration.git",
+  "author": "Georgi Kirilov",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3333"
+  }
+}

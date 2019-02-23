@@ -2,9 +2,9 @@
     "defaultSeverity": "error",
     "extends": [
         "tslint:recommended",
-        "tslint-eslint-rules"
+        "tslint-eslint-rules",
+        "tslint-consistent-codestyle"
     ],
-    "jsRules": {},
     "rules": {
         "max-line-length": [
             true,
@@ -43,6 +43,7 @@
             "allow-trailing-underscore",
             "check-format"
         ],
+        "no-var-keyword": true,
         "class-name": true,
         "prefer-const": true,
         "array-type": [

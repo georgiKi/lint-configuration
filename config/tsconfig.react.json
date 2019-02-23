@@ -1,0 +1,11 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "./tslint.global.json",
+    "tslint-react"
+  ],
+  "rules": {
+	  "jsx-curly-spacing": "aways",
+	  "jsx-boolean-value": "never"
+  }
+}

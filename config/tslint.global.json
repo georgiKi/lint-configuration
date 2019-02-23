@@ -1,0 +1,134 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended",
+        "tslint-eslint-rules",
+        "tslint-consistent-codestyle"
+    ],
+    "rules": {
+        "max-line-length": [
+            true,
+            140
+        ],
+		"indent": [true, "tabs", 2],
+        "import-spacing": true,
+        "no-duplicate-imports": true,
+        "ordered-imports": [
+            true,
+            {
+                "grouped-imports": true
+            }
+        ],
+		"object-literal-sort-keys": false,
+        "quotemark": [
+            true,
+            "double"
+        ],
+        "semicolon": [
+            true,
+            "always"
+        ],
+		"trailing-comma": [
+			true,
+			{
+				"multiline": "never",
+				"singleline": "never"
+			}
+		],
+        "curly": true,
+        "no-duplicate-variable": true,
+        "variable-name": [
+            true,
+            "allow-leading-underscore",
+            "allow-trailing-underscore",
+            "check-format"
+        ],
+        "no-var-keyword": true,
+        "class-name": true,
+        "prefer-const": true,
+        "array-type": [
+            true,
+            "array"
+        ],
+        "ban-types": {
+            "options": [
+                [
+                    "Object",
+                    "Avoid using the `Object` type. Did you mean `object`?"
+                ],
+                [
+                    "Function",
+                    "Avoid using the `Function` type. Prefer a specific function type, like `() => void`."
+                ],
+                [
+                    "Boolean",
+                    "Avoid using the `Boolean` type. Did you mean `boolean`?"
+                ],
+                [
+                    "Number",
+                    "Avoid using the `Number` type. Did you mean `number`?"
+                ],
+                [
+                    "String",
+                    "Avoid using the `String` type. Did you mean `string`?"
+                ],
+                [
+                    "Symbol",
+                    "Avoid using the `Symbol` type. Did you mean `symbol`?"
+                ]
+            ]
+        },
+        "eofline": true,
+        "space-before-function-paren": [
+            true,
+            {
+                "anonymous": "always",
+                "asyncArrow": "always",
+                "constructor": "never",
+                "named": "never",
+                "method": "never"
+            }
+        ],
+        "arrow-return-shorthand": [
+            true,
+            "multiline"
+        ],
+        "arrow-parens": [
+            true,
+            "ban-single-arg-parens"
+        ],
+        "forin": true,
+        "return-undefined": true,
+        "member-access": [
+            true,
+            "no-public"
+        ],
+        "member-ordering": [
+            true,
+            {
+                "order": [
+                    "public-static-field",
+                    "protected-static-field",
+                    "private-static-field",
+                    "public-instance-field",
+                    "protected-instance-field",
+                    "private-instance-field",
+                    "constructor",
+                    "public-static-method",
+                    "protected-static-method",
+                    "private-static-method",
+                    "public-instance-method",
+                    "protected-instance-method",
+                    "private-instance-method"
+                ]
+            }
+        ],
+        "comment-format": [
+            true,
+            "check-space"
+        ],
+        "deprecation": {
+            "severity": "warning"
+        }
+    }
+}

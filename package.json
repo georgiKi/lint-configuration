@@ -1,0 +1,15 @@
+{
+  "name": "lint-configuration",
+  "version": "0.1.0",
+  "description": "Lint configuration, which I use with my projects.",
+  "repository": "https://github.com/georgi2411/lint-configuration.git",
+  "author": "Georgi Kirilov",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "tslint": "^5.12.1",
+    "tslint-eslint-rules": "^5.4.0",
+    "tslint-react": "^3.6.0",
+    "tslint-consistent-codestyle": "^1.15.0"
+  }
+}

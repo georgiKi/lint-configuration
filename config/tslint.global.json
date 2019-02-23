@@ -1,21 +1,53 @@
 {
     "defaultSeverity": "error",
     "extends": [
-        "tslint:recommended"
+        "tslint:recommended",
+        "tslint-eslint-rules"
     ],
     "jsRules": {},
     "rules": {
+        "max-line-length": [
+            true,
+            140
+        ],
+		"indent": [true, "tabs", 2],
+        "import-spacing": true,
+        "no-duplicate-imports": true,
+        "ordered-imports": [
+            true,
+            {
+                "grouped-imports": true
+            }
+        ],
+		"object-literal-sort-keys": false,
+        "quotemark": [
+            true,
+            "double"
+        ],
+        "semicolon": [
+            true,
+            "always"
+        ],
+		"trailing-comma": [
+			true,
+			{
+				"multiline": "never",
+				"singleline": "never"
+			}
+		],
+        "curly": true,
+        "no-duplicate-variable": true,
+        "variable-name": [
+            true,
+            "allow-leading-underscore",
+            "allow-trailing-underscore",
+            "check-format"
+        ],
+        "class-name": true,
+        "prefer-const": true,
         "array-type": [
             true,
             "array"
-        ],
-        "arrow-parens": [
-            true,
-            "ban-single-arg-parens"
-        ],
-        "arrow-return-shorthand": [
-            true,
-            "multiline"
         ],
         "ban-types": {
             "options": [
@@ -45,27 +77,27 @@
                 ]
             ]
         },
-        "class-name": true,
-        "comment-format": [
+        "eofline": true,
+        "space-before-function-paren": [
             true,
-            "check-space"
+            {
+                "anonymous": "always",
+                "asyncArrow": "always",
+                "constructor": "never",
+                "named": "never",
+                "method": "never"
+            }
         ],
-        "curly": true,
-        "deprecation": {
-            "severity": "warning"
-        },
-        "eofline": false,
+        "arrow-return-shorthand": [
+            true,
+            "multiline"
+        ],
+        "arrow-parens": [
+            true,
+            "ban-single-arg-parens"
+        ],
         "forin": true,
-        "import-spacing": true,
-        "indent": [
-            true,
-            "tabs"
-        ],
-        "no-duplicate-imports": true,
-        "max-line-length": [
-            true,
-            140
-        ],
+        "return-undefined": true,
         "member-access": [
             true,
             "no-public"
@@ -90,31 +122,12 @@
                 ]
             }
         ],
-        "prefer-const": true,
-        "quotemark": [
+        "comment-format": [
             true,
-            "double"
+            "check-space"
         ],
-        "semicolon": [
-            true,
-            "always"
-        ],
-        "space-before-function-paren": [
-            true,
-            {
-                "anonymous": "always",
-                "asyncArrow": "always",
-                "constructor": "never",
-                "named": "never",
-                "method": "never"
-            }
-        ],
-        "variable-name": [
-            true,
-            "allow-leading-underscore",
-            "allow-trailing-underscore",
-            "check-format"
-        ]
-    },
-    "rulesDirectory": []
+        "deprecation": {
+            "severity": "warning"
+        }
+    }
 }

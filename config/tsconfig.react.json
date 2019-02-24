@@ -6,6 +6,6 @@
   ],
   "rules": {
 	  "jsx-curly-spacing": "aways",
-	  "jsx-boolean-value": "never"
+	  "jsx-boolean-value": false
   }
 }

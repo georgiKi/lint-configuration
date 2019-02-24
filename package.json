@@ -1,6 +1,6 @@
 {
   "name": "lint-configuration",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Lint configuration, which I use with my projects.",
   "repository": "https://github.com/georgi2411/lint-configuration.git",
   "author": "Georgi Kirilov",

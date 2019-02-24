@@ -10,7 +10,7 @@
             true,
             140
         ],
-		"indent": [true, "tabs", 2],
+		"indent": [true, "tabs", 4],
         "import-spacing": true,
         "no-duplicate-imports": true,
         "ordered-imports": [
